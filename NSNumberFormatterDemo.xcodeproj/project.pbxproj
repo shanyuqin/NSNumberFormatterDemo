@@ -13,6 +13,8 @@
 		94D1086E22967E3D00531EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D1086D22967E3D00531EE9 /* Assets.xcassets */; };
 		94D1087122967E3D00531EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D1086F22967E3D00531EE9 /* LaunchScreen.storyboard */; };
 		94D1087422967E3D00531EE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1087322967E3D00531EE9 /* main.m */; };
+		94D1087D229680E100531EE9 /* NumberFormatterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1087B229680E100531EE9 /* NumberFormatterCell.m */; };
+		94D1087E229680E100531EE9 /* NumberFormatterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94D1087C229680E100531EE9 /* NumberFormatterCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		94D1087022967E3D00531EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94D1087222967E3D00531EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D1087322967E3D00531EE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94D1087A229680E100531EE9 /* NumberFormatterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberFormatterCell.h; sourceTree = "<group>"; };
+		94D1087B229680E100531EE9 /* NumberFormatterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberFormatterCell.m; sourceTree = "<group>"; };
+		94D1087C229680E100531EE9 /* NumberFormatterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberFormatterCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				94D1086522967E3D00531EE9 /* AppDelegate.m */,
 				94D1086722967E3D00531EE9 /* ViewController.h */,
 				94D1086822967E3D00531EE9 /* ViewController.m */,
+				94D1087A229680E100531EE9 /* NumberFormatterCell.h */,
+				94D1087B229680E100531EE9 /* NumberFormatterCell.m */,
+				94D1087C229680E100531EE9 /* NumberFormatterCell.xib */,
 				94D1086A22967E3D00531EE9 /* Main.storyboard */,
 				94D1086D22967E3D00531EE9 /* Assets.xcassets */,
 				94D1086F22967E3D00531EE9 /* LaunchScreen.storyboard */,
@@ -129,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D1087122967E3D00531EE9 /* LaunchScreen.storyboard in Resources */,
+				94D1087E229680E100531EE9 /* NumberFormatterCell.xib in Resources */,
 				94D1086E22967E3D00531EE9 /* Assets.xcassets in Resources */,
 				94D1086C22967E3D00531EE9 /* Main.storyboard in Resources */,
 			);
@@ -142,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D1086922967E3D00531EE9 /* ViewController.m in Sources */,
+				94D1087D229680E100531EE9 /* NumberFormatterCell.m in Sources */,
 				94D1087422967E3D00531EE9 /* main.m in Sources */,
 				94D1086622967E3D00531EE9 /* AppDelegate.m in Sources */,
 			);

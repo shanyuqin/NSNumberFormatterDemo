@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NumberFormatterCell : UITableViewCell
-
+- (void)setCell:(NSString *)showStyle chineseShowStyle:(NSString *)chineseShowStyle  originValue :(NSString *)originValue  formaterTitle :(NSString *)formaterTitle   changeFormater:(NSString *)changeFormater;
 @end
 
 NS_ASSUME_NONNULL_END
